@@ -56,6 +56,15 @@ class Surveillance_system{
 }
 
 class Bank_branch{
+	string street;
+	string town;
+	string zip;
+	
+	public Bank_branch(string street, string town, string zip){
+		this.street = street;
+		this.town = town;
+		this.zip = zip;
+	}
 	
 }
 
