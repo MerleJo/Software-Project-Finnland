@@ -6,6 +6,7 @@ public class ATM {
 	public ATM (int amount, int nr){
 		cashAmount = amount;
 		serialNumber = nr;
+		
 	}
 	
 	public void setAmount (int amount) {
@@ -14,6 +15,7 @@ public class ATM {
 }
 
 class Banking_system {
+	public int id;
 	
 }
 
